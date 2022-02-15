@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="kodlar.js"></script>
+    <title>Değişkenler</title>
+</head>
+<body>
+    <form>
+        <label for="txtAd">Adınız Giriniz:</label>
+        <input type="text" id="txtAd"><br>
+
+        <label for="txtSoyad">Soyadınızı Giriniz:</label>
+        <input type="text" id="txtSoyad"><br>
+
+        <label for="yas">Yaşınızı Giriniz:</label>
+        <input type="number" id="numberYas"><br>
+
+        <label for="listeTakimlar">Tuttuğunuz Takımı Seçiniz</label>
+        <select name="takimlar" id="listeTakimlar">
+            <option value="bjk">Beşiktaş</option>
+            <option value="fb">Fenerbahçe</option>
+            <option value="gs">Galatasaray</option>
+            <option value="ts">Trabzonspor</option>
+        </select><br>
+        <input type="button" value="Gönder" id="btnGonder" onclick="merhaba()">
+    </form>
+    <h3 id="sonucBaslik"></h3>
+</body>
+</html>
